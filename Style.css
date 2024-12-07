@@ -110,7 +110,7 @@ nav ul li a:hover::after {
 
 .about-col-1 img {
     width: 100%;
-    border-radius: 15px; 
+    border-radius: 15px; /* Optional: rounded edges */
 }
 
 .about-col-2 {
@@ -176,7 +176,7 @@ nav ul li a:hover::after {
     padding: 30px 0;
 
 }
-.services-list {
+.services-list { /* Add the missing dot */
     color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -358,7 +358,7 @@ nav ul li a:hover::after {
     padding: 12px;
     background: #ff004f; /* Button color */
     border: none;
-    border-radius: 5%;
+    border-radius: px;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -368,14 +368,14 @@ nav ul li a:hover::after {
 }
 
 .contact-form button:hover {
-    background: #d00345; /* Hover effect */
+    background: #d00345;
 }
 
 .contact-left p i{
-    color: #c91f55;
+    color: #453b3b;
     margin-left: 15px;
     margin: 2%;
-    font-size: 30px,;
+    font-size: 30px;
    
 }
 
