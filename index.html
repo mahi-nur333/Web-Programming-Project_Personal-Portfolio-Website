@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/20b4d020a1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container"></div>
+        <nav>
+            <img src="Images/Logo1.png" class="logo">
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+
+            <h1>Hi, I am <span>Mahinur Rahman Pamel</span><br>from Sylhet, Bangladesh</h1>
+            <p>Student || CSE, Metropolitan University</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/Myimage.jpg" alt="My Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my website! I'm Mahinur Rahman Pamel, a passionate Computer Science and Engineering student currently in my third year at Metropolitan University, Sylhet, Bangladesh. 
+                          Beyond academics, I actively engage in leadership and community activities. As the President of Knocking Collaborator’s Youth Foundation, I lead initiatives in public speaking, 
+                          leadership, and charity. I am also the Secretary (Training) for the Metropolitan University Rover Scout Group, where I guide a team in scouting and leadership development.
+                           Additionally, I founded "Call for Blood," an online blood donation platform to help connect donors and recipients in Sylhet.
+                         My experiences have been recognized with prestigious awards such as the President’s Scout Award, which is the highest honor in Bangladesh Scouts, and the Study in India (SII) Scholarship, funded by the Government of India. 
+                         I’ve also attended various workshops and training programs focused on leadership and research.
+                        Professionally, I'm co-founded Chitrachar, a photography venture, and i also worked as a Social Media Manager for Wesitely LTD, enhancing its online presence.
+                        I look forward to connecting with you and sharing more about my work and experiences. Thank you for visiting!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents Active-tab" id="Skills">
+                        <ul>
+                            <li><span>Leadership and Team Management</span><br>As the President of Knocking Collaborator’s Youth Foundation and Secretary (Training) for the Metropolitan University Rover Scout Group, I have demonstrated strong leadership abilities by managing teams, organizing activities, and fostering teamwork and collaboration.</li>
+                            <li><span>Photography and Creative Content Creation</span><br>As the co-founder and part-time photographer at Chitrachar, I have developed a keen eye for photography and creative content creation, turning my passion into a professional pursuit.</li>
+                            <li><span>Technical Proficiency</span><br>With experience in computer programming languages like C, C++, HTML, and Python, as well as proficiency in Microsoft Word and PowerPoint, I have a solid foundation in technical skills relevant to my studies and career.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>March 2024 - Present</span><br>Co-Founder and Part-Time Photographer
+                                Chitrachar, Sylhet, Bangladesh</li>
+                            <li><span>March 2023 - October 2023</span><br>Social Media Manager
+                                Wesitely LTD, Sylhet, Bangladesh</li>
+                            <li><span>June 2021 - Present</span><br>Founder
+                                Call for Blood, Sylhet, Bangladesh</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Appeared</span><br>B.Sc. in Computer Science and Engineering
+                                Metropolitan University, Sylhet, Bangladesh</li>
+                            <li><span>January 2021</span><br>Higher Secondary School Certificate (HSC), Science
+                                Sylhet Government College, Sylhet, Bangladesh</li>
+                            <li><span>May 2018</span><br>Secondary School Certificate (SSC), Science
+                                Balaganj Govt Dawrokanath High School, Sylhet, Bangladesh</li>
+                        </ul>
+                    </div>
+                    
+                    
+                    
+        </div>
+    </div>
+
+
+    
+<!-----services-->
+<div id="services"></div>
+<div id="container">
+    <h1 class="sub-title">LEADERSHIP AND COMMUNITY ENGAGEMENT</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-brands fa-discourse"></i>
+            <h2>President</h2>
+            <h3>Knocking Collaborator’s Youth Foundation (May 2024 - Present)<br></h3>
+            <p2>Leading youth programs in public speaking, debate, leadership, and charity while fostering collaboration and representing the foundation at events.</p2><br>
+            <a href="https://www.facebook.com/kcyf.org"> <p3>Explore more</p3></a>
+        </div>
+         
+        <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Secretary (Training)</h2>
+            <h3>Metropolitan University Rover Scout Group (Feb 2023 - Present)Knocking Collaborator’s Youth Foundation (May 2024 - Present)<br></h3>
+            <p2>Leading a team of six, coordinating activities, and fostering teamwork and leadership through diverse scouting projects.</p2><br>
+            <a href="https://www.facebook.com/roverscout.metrouni.edu.bd"> <p3>Explore more</p3></a>
+        </div>
+    
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Member</h2>
+            <h3>Bangladesh Scouts (Mar 2010 - Present) br </h3>
+            <p2>Progressed from Cub Scout to Rover Scout, actively participating in community service, leadership training, and outdoor activities, while developing teamwork, leadership, and problem-solving skills.</p2><br>
+            <a href="https://scouts.gov.bd/"> <p3>Explore more</p3></a>
+        </div>
+    </div>
+    
+    <!--------Portfolio----->
+    <div id="portfolio">
+         <div class="container"></div>
+         <h1 class="sub-title">AWARD AND SCHOLERSHIP</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="Images/work4.jpg">
+                <div class="layer">
+                    <h3>President’s Scout Award(OCT 2019)</h3>
+                    <p>As a recipient of the prestigious President’s Scout Award from Bangladesh Scouts, I achieved the highest recognition in the Bangladesh Scouts. This accomplishment required the successful completion of a series of rigorous requirements, including earning the Standard Badge, Progress Badge, Service Badge, and a minimum of 16 Skill Badges. Additionally,
+                        I passed written, oral, and swimming exams at various levels, including upazila, zila, regional, and national stages. This award, presented by the President of Bangladesh, honors my outstanding scouting achievements and dedication</p>
+                    <a href="https://en.wikipedia.org/wiki/Bangladesh_Scouts"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/work2.jpg">
+                <div class="layer">
+                    <h3></h3>
+                    <p>                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/work3.jpg">
+                <div class="layer">
+                    <h3>Study in India (SII) Scholarship (October 2022)</h3>
+                    <p>Received the prestigious Study in India (SII) Scholarship from the Government of India for a B.Tech in Computer Engineering at Pandit Deendayal Energy University, Gujarat. The scholarship covered full tuition, hostel, and food fees for three academic years. (Declined due to personal circumstances.)</p>
+                </p>
+                    <a href="https://drive.google.com/file/d/1v1QmbdLxjABuc688vbsjtYJlyr_1hdxB/view?usp=sharing"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+
+         </div>
+         <a href="#" class="btn">see more</a>
+
+    </div>
+
+
+<!-----------Contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-square-envelope"></i> mahi333nur@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/mahi333.pamel/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/mahi_nur333"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/mahi-nur333"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://https://x.com/mahi_nur333"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fngl.link%2Fmahi71502%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3yL_AgTik0mke-T2hE_P_w4o5lv__93BWMmajJyJVKWrXoWRvA-qxf6r0_aem_MnoV3f6QDYpPT8_EzEOkBw&h=AT03YfqRzWnV_bt_Fahxy8oS0TzVUyoysFXsKQeiIWdcRSh4PJ6HjhakHZO9Cs7nEstx_F6bJTiG5ChDC6TXGFTPr5D_-wZ8d8-RUMoj8P2D6YLjZ-uh_PECLbILn0lqh-bocQ"><i class="fa-solid fa-link"></i></a>
+
+                </div>
+ <!-----CV-------------->
+                <a href="Images/Mahinur Rahman Pamel-CV 1.2.pdf" class="btn btn2">Download CV</a>
+
+            </div>
+
+
+<!-- Contact Form Section -->
+<section id="contact-form">
+    <div class="contact-form">
+        <h3>Write to Me</h3>
+        <form action="https://formspree.io/f/xyzyvjde" method="POST">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required placeholder="your@email.com">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Your message here..."></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+            </div>
+               
+            
+        </div>
+        <div class="Copyright">
+            <p>© 2024 Mahinur Rahman Pamel. All rights reserved.</p>
+        </div>
+    </div>
+
+    </div>
+</div>
+
+
+
+
+    <script>
+       var tablinks = document.getElementsByClassName("tab-links")
+       var tabcontents = document.getElementsByClassName("tab-contents")
+
+       function opentab(event, tabname) {
+    for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+
+    for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("Active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("Active-tab");
+}
+
+    </script>
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu")
+
+function openmenu() {
+    document.getElementById("sidemenu").style.right = "0";
+}
+
+function closemenu() {
+    document.getElementById("sidemenu").style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>
